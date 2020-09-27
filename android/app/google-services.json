@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1029621683798",
+    "firebase_url": "https://drive-demo-app-e803b.firebaseio.com",
+    "project_id": "drive-demo-app-e803b",
+    "storage_bucket": "drive-demo-app-e803b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029621683798:android:d574767dd62e1e9873cdf7",
+        "android_client_info": {
+          "package_name": "com.demo.googledrivedemoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029621683798-hgb03j09ptnu3v6o5pjgc1ishbr9r3pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARU4qXlG_bpKxUjxLzf2STXUbzNVYgHDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029621683798-hgb03j09ptnu3v6o5pjgc1ishbr9r3pb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
