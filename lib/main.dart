@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_drive_demo_app/GoogleAuthClient.dart';
 import 'package:googleapis/drive/v3.dart' as drive;
 import 'package:google_sign_in/google_sign_in.dart' as signIn;
 
@@ -59,9 +60,22 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
     });
 
-    final googleSignIn = signIn.GoogleSignIn.standard(scopes: [drive.DriveApi.DriveScope]);
+    final googleSignIn =
+        signIn.GoogleSignIn.standard(scopes: [drive.DriveApi.DriveScope]);
     final signIn.GoogleSignInAccount account = await googleSignIn.signIn();
     print("User account $account");
+
+    final authHeaders = await account.authHeaders;
+    final authenticateClient = GoogleAuthClient(authHeaders);
+    final driveApi = drive.DriveApi(authenticateClient);
+
+    final Stream<List<int>> mediaStream =
+        Future.value([104, 105]).asStream().asBroadcastStream();
+    var media = new drive.Media(mediaStream, 2);
+    var driveFile = new drive.File();
+    driveFile.name = "hello_world.txt";
+    final result = await driveApi.files.create(driveFile, uploadMedia: media);
+    print("Upload result: $result");
   }
 
   @override
