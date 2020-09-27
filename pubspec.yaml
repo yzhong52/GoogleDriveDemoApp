@@ -30,7 +30,6 @@ dependencies:
 
   googleapis: any
   google_sign_in: any
-  googleapis_auth: any
 
 dev_dependencies:
   flutter_test:
