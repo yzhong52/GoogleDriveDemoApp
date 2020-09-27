@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1029621683798-t85vtsmj8v1uujg29888dv6f8vblnrs8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1029621683798-t85vtsmj8v1uujg29888dv6f8vblnrs8</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1029621683798-jvp12a0rri97hbpp456rttc9eshnn2sa.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCM0SnDblN4N6RbXovt4icgsy7AU-r3xQ4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1029621683798</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.demo.googledrivedemoapp</string>
+	<key>PROJECT_ID</key>
+	<string>drive-demo-app-e803b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>drive-demo-app-e803b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1029621683798:ios:fa9bdd01e9b4d6ae73cdf7</string>
+	<key>DATABASE_URL</key>
+	<string>https://drive-demo-app-e803b.firebaseio.com</string>
+</dict>
+</plist>
