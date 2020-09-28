@@ -69,8 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final authenticateClient = GoogleAuthClient(authHeaders);
     final driveApi = drive.DriveApi(authenticateClient);
 
-    final Stream<List<int>> mediaStream =
-        Future.value([104, 105]).asStream().asBroadcastStream();
+    final Stream<List<int>> mediaStream = Future.value([104, 105]).asStream();
     var media = new drive.Media(mediaStream, 2);
     var driveFile = new drive.File();
     driveFile.name = "hello_world.txt";
